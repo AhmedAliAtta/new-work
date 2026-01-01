@@ -1,44 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Fixed FRP Bypass</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body { font-family: sans-serif; padding: 20px; text-align: center; background: #f0f0f0; }
-        a { 
-            display: block; 
-            margin: 15px 0; 
-            padding: 20px; 
-            background: #333; 
-            color: white; 
-            text-decoration: none; 
-            border-radius: 8px; 
-            font-size: 20px; 
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .blue { background: #007bff; }
-        .red { background: #dc3545; }
-        .green { background: #28a745; }
-    </style>
-</head>
 <body>
-
-    <h3>Direct Settings Links</h3>
+    <br><br><br>
     
-    <a href="intent:#Intent;action=android.intent.action.POWER_USAGE_SUMMARY;end" class="green">
-        1. Open Battery Settings
-    </a>
-
-    <a href="intent:#Intent;action=android.settings.ACCESSIBILITY_SETTINGS;end" class="blue">
-        2. Open Accessibility
-    </a>
-
-    <a href="intent:#Intent;action=android.intent.action.VOICE_COMMAND;end" class="red">
-        3. Force Voice Assistant
-    </a>
-
-    <a href="intent:#Intent;action=android.intent.action.WEB_SEARCH;end">
-        4. Open Google Search App
+    <a style="font-size:40px; background:red; color:white; padding:20px; display:block;" 
+       href="intent:package:com.google.android.gms#Intent;action=android.settings.APPLICATION_DETAILS_SETTINGS;end">
+       اضغط هنا لتعطيل الخدمات
     </a>
 
 </body>
